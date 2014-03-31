@@ -1,7 +1,4 @@
 Build.PL
-lib/Catmandu/Fix/Date.pm
-lib/Catmandu/Fix/datetime_format.pm
-lib/Catmandu/Fix/timestamp.pm
 lib/Catmandu/Fix/XML.pm
 lib/Catmandu/Fix/xml_transform.pm
 LICENSE

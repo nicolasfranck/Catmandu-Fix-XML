@@ -3,15 +3,13 @@ require 5.010001;
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
-  'NAME' => 'Catmandu-Fix-Date',
-  'VERSION_FROM' => 'lib/Catmandu/Fix/Date.pm',
+  'NAME' => 'Catmandu-Fix-XML',
+  'VERSION_FROM' => 'lib/Catmandu/Fix/XML.pm',
   'PREREQ_PM' => {
-                   'Catmandu' => 0,
-                   'DateTime' => 0,
-                   'DateTime::Format::Strptime' => 0,
-                   'DateTime::TimeZone' => 0,
-                   'Moo' => 0,
-                   'Time::HiRes' => 0
+                   'Catmandu' => '0.8013',
+                   'Moo' => '1.004002',
+                   'XML::LibXML' => '2.0113',
+                   'XML::LibXSLT' => '1.89'
                  },
   'INSTALLDIRS' => 'site',
   'EXE_FILES' => [],

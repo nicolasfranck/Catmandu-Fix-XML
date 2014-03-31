@@ -4,8 +4,8 @@ use Module::Build;
 
 my $requires = {
   perl => '5.10.1',
-  Catmandu => '>=0.8013',  
-  'Moo' => '>=1.004002',
+  Catmandu => '0.8013',  
+  'Moo' => '1.004002',
   'XML::LibXML' => '2.0113',
   'XML::LibXSLT' => '1.89'
 };

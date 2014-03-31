@@ -1,5 +1,5 @@
 ---
-abstract: 'Catmandu fix modules for parsing dates'
+abstract: 'Catmandu fix modules for processing xml'
 author:
   - nicolas.franck@ugent.be
 build_requires: {}
@@ -11,23 +11,19 @@ license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
-name: Catmandu-Fix-Date
+name: Catmandu-Fix-XML
 provides:
-  Catmandu::Fix::Date:
-    file: lib/Catmandu/Fix/Date.pm
-    version: 0.011
-  Catmandu::Fix::datetime_format:
-    file: lib/Catmandu/Fix/datetime_format.pm
-  Catmandu::Fix::timestamp:
-    file: lib/Catmandu/Fix/timestamp.pm
+  Catmandu::Fix::XML:
+    file: lib/Catmandu/Fix/XML.pm
+    version: 0.1
+  Catmandu::Fix::xml_transform:
+    file: lib/Catmandu/Fix/xml_transform.pm
 requires:
-  Catmandu: 0
-  DateTime: 0
-  DateTime::Format::Strptime: 0
-  DateTime::TimeZone: 0
-  Moo: 0
-  Time::HiRes: 0
+  Catmandu: 0.8013
+  Moo: 1.004002
+  XML::LibXML: 2.0113
+  XML::LibXSLT: 1.89
   perl: v5.10.1
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.011
+version: 0.1
