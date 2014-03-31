@@ -1,0 +1,17 @@
+catmandu.yml
+config.yml
+environments/*.yml
+.DS_Store
+*.swp
+.build
+_build
+blib
+Build
+LICENSE
+Makefile.PL
+META.*
+MYMETA.*
+Catmandu-*
+logs
+local/
+vendor/

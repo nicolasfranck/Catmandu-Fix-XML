@@ -12,4 +12,4 @@
 ^MANIFEST\.SKIP
 
 # Avoid archives of this distribution
-\bCatmandu-Fix-Date-[\d\.\_]+
+\bCatmandu-Fix-XML-[\d\.\_]+
