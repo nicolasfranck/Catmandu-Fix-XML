@@ -6,10 +6,7 @@ WriteMakefile
   'NAME' => 'Catmandu-Fix-XML',
   'VERSION_FROM' => 'lib/Catmandu/Fix/XML.pm',
   'PREREQ_PM' => {
-                   'Catmandu' => '0.8013',
-                   'Moo' => '1.004002',
-                   'XML::LibXML' => '2.0113',
-                   'XML::LibXSLT' => '1.89'
+                   'Catmandu::XML' => '0.04',
                  },
   'INSTALLDIRS' => 'site',
   'EXE_FILES' => [],
